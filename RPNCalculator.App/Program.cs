@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RPNCalculator
+namespace RpnCalculator
 {
     class Program
     {
