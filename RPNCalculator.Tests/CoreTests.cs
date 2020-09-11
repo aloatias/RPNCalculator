@@ -20,7 +20,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "4";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -34,7 +34,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "3";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -48,7 +48,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "141";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -62,7 +62,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "20";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -76,7 +76,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "40";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -90,7 +90,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "21";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -104,7 +104,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "15";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -118,7 +118,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "13";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -132,7 +132,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "24";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -146,7 +146,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "5";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
@@ -160,7 +160,7 @@ namespace RpnCalculator.Tests
             var expectedResult = "7";
 
             // Act
-            string actualResult = _rpnCore.Calculate(entryOperation);
+            string actualResult = _rpnCore.CalculateCompleteExpression(entryOperation);
 
             // Test
             Assert.Equal(expectedResult, actualResult);
